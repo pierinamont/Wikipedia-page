@@ -1,0 +1,48 @@
+:root{
+    --font-family-title:'Linux Libertine', serif;
+    --font-familiy-content: arial;
+    --blue-color: #36c;
+    --gray-border-color: #a2a9b1;
+    --gray-text-color: #54595d;
+    --gray background-color: #f8f9fa;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*HEADER*/
+
+.header{
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.header .header-image{
+    width: 210px;
+    margin-bottom: 7px;
+}
+
+.header h2{
+    font-size: 18px;
+    font-weight: 100;
+}
+
+/*HEADER*/
+
+/*main section*/
+
+.main-section{
+    height: 500px;
+}
+
+.main-section .main-section-containers{
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.main-section .main-section-container
