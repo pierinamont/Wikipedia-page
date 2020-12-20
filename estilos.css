@@ -404,6 +404,7 @@ footer {
     display: flex;
     justify-content: space-evenly;
     height: 40px;
+    font-size: 12px;
 }
 
 footer ul {
